@@ -30,5 +30,12 @@
 #### cargo 管理
 >* 构建系统，包管理工具
 >* cargo 随着 rust 安装而安装
->* cargo new "项目名称" 创建 rust 项目
+>* cargo new "项目名称" 创建 rust 项目, 例如，cargo new wazzup
 >* cargo init 用来初始化一个文件夹，变成 rust 项目
+>* src 用来放源代码，main.rs 中包含主函数
+>* .toml 是 cargo 的配置信息
+>* cargo build，cargo build --release
+>* cargo run
+>* cargo check
+
+##### .toml 文件
