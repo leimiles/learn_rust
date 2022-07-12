@@ -40,8 +40,8 @@
 >* cargo check
 
 ##### .toml 文件
->* package 表示本模块的信息
->* dependency 表示依赖的第三方 rust 库，称作 crate
+>* package 表示本模块的信息，package 是可以独立运行的
+>* dependency 表示依赖的第三方 rust 库，称作 crate，crate 是不能独立运行的，例如，rand = "0.8.4"
 
 ## 语法
 #### 引用外部库
